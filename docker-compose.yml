@@ -1,0 +1,6 @@
+spark:
+  build: .
+  ports:
+    - "4040:4040"
+  volumes:
+    - /opt/spark:/opt/spark

@@ -1,5 +1,5 @@
 spark:
-  build: .
+  image: honto/spark
   ports:
     - "4040:4040"
   volumes:
